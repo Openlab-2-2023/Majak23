@@ -1,15 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="mystyle.css">
+    <title>Životopis - Ján Koleník</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color:grey"></body>
-    <h1 style="background-color:blue">Adam Maják</h1>
-    <p style="background-color:yellow;">Chodím na super školu.</p>
-    <img src="https://img.freepik.com/premium-vector/mafia-logo_74829-29.jpg?w=360" alt="">
-    <img src="./images/QsLrJ9Hra_fss.jpg" alt="">
+<body>
+    <div class="container">
+        <h1>Ján Koleník</h1>
+        <img src="https://img.joj.sk/r1010x570n/f2d5866143044ce87aff8e89e2b253bc" alt="Fotka Jana Koleníka" class="profile-pic">
+        
+        <button onclick="toggleBio()">Životopis</button>
+
+        <div id="bio" class="bio" style="display: none;">
+            <p>
+                <strong>Ján Koleník</strong>, narodený <span style="font-style: italic;">11. novembra 1979</span> v <u>Banskej Bystrici</u>, je významný slovenský herec. 
+                Po absolvovaní herectva na Vysokej škole múzických umení v Bratislave v roku 2003 sa stal členom Slovenského národného divadla, kde účinkuje dodnes. 
+                V divadle stvárnil množstvo významných postáv, za ktoré získal uznanie publika aj kritiky.
+            </p>
+            <p>
+                Na televíznych obrazovkách sa preslávil úlohami v populárnych seriáloch ako <em>„Panelák“</em>, <em>„Horná Dolná“</em> a <em>„Za sklom“</em>. 
+                Je držiteľom viacerých ocenení, vrátane prestížnej ceny OTO pre najlepšieho herca, ktorú získal v rokoch <strong>2013</strong>, <strong>2015</strong> a <strong>2016</strong>.
+            </p>
+            <p>
+                Okrem hereckej kariéry sa aktívne zapája do charitatívnych projektov zameraných na podporu detí a ochranu životného prostredia. 
+                Vo voľnom čase sa venuje športu, najmä tenisu a fitness. <strong>Ján Koleník</strong> zostáva jednou z najvýraznejších postáv slovenského herectva.
+            </p>
+            <p>
+                <em>Ján Koleník absolvoval herectvo na Vysokej škole múzických umení v Bratislave, kde sa naučil základy herectva a divadelnej produkcie.</em>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function toggleBio() {
+            var bio = document.getElementById("bio");
+            if (bio.style.display === "none") {
+                bio.style.display = "block"; // Zobraziť bio
+            } else {
+                bio.style.display = "none"; // Skryť bio
+            }
+        }
+    </script>
 </body>
 </html>

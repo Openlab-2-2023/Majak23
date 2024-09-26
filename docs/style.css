@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:  #a7eafb; /* Farba pozadia*/
+    color: black; /* Farba textu */
+    text-align: center; /* Zarovnanie textu na stred */
+    padding: 20px; /* Pridanie paddingu pre lepšie rozloženie */
+}
+
+.container {
+    background-color: #a7eafb; /* Biele pozadie kontajnera */
+    padding: 20px; /* Padding pre vnútorné rozloženie */
+    margin: auto; /* Zarovnanie kontajnera na stred */
+    max-width: 500px; /* Maximálna šírka kontajnera */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+h1 {
+    margin-bottom: 20px; /* Medzera pod menom */
+    font-weight: bold; /* Hrubé písmo pre meno */
+}
+
+
+.profile-pic {
+    width: 150px; /* Šírka obrázka */
+    border-radius: 50%; /* Okrúhla fotka */
+    margin: 20px auto; /* Medzery okolo obrázka a zarovnanie na stred */
+    display: block; /* Umožňuje centrálne zarovnanie */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #004d40; /* Farba pre tlačidlo */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Vytvorenie medzery nad tlačidlom */
+    
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+.bio {
+    margin-top: 20px; /* Vytvorenie medzery nad životopisom */
+}
