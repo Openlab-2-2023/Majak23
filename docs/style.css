@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #54d9dd, #ffffff); 
+    background: linear-gradient(135deg, #54d9dd, #ffffff, #54d9dd); 
     color: black;
     text-align: center;
     padding: 20px;
@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    background-color: #aaf2eb; /* Svetlé pozadie kontajnera */
+    background-color: #9cf8ef; /* Svetlé pozadie kontajnera */
     border-radius: 12px; /* Okrúhlejšie rohy */
     padding: 25px; 
     margin: auto;
