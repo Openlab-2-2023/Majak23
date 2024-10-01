@@ -1,14 +1,17 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #54d9dd, #ffffff, #54d9dd); 
+    background: linear-gradient(135deg, #05c07e, #ffffff, #05c07e);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: black;
     text-align: center;
     padding: 20px;
     line-height: 1.6;
+    height: 100vh;
 }
 
 .container {
-    background-color: #9cf8ef; /* Svetlé pozadie kontajnera */
+    background:linear-gradient(135deg, #56dfc1, #ffffff, #56dfc1); /* Svetlé pozadie kontajnera */
     border-radius: 12px; /* Okrúhlejšie rohy */
     padding: 25px; 
     margin: auto;
