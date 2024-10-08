@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #05c07e, #ffffff, #05c07e);
+    background: linear-gradient(135deg, hsl(159, 95%, 39%), hsl(0, 0%, 100%), hsl(159, 95%, 39%));
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
@@ -46,7 +46,7 @@ h1 {
 
 button {
     padding: 12px 20px; /* Väčšie tlačidlo pre lepšiu interakciu */
-    background-color: #004d40; /* Farba pre tlačidlo */
+    background-color: rgb(0, 77, 64); /* Farba pre tlačidlo */
     color: white;
     border: none;
     border-radius: 8px; /* Okrúhlejšie rohy tlačidla */
