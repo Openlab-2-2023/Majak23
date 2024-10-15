@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>youtube</title>
     <link rel="stylesheet" href="styled.css">
 </head>
+
 <body>
     <div class="top-bar">
         <div class="left-section">
@@ -15,98 +17,139 @@
         <div class="center-section">
             <div class="search-container">
                 <input type="text" class="search-input" placeholder="Search">
-                <img src="data:image/png;base64,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" class="search-icon">
+                <img src="data:image/png;base64,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"
+                    class="search-icon">
             </div>
         </div>
-        
+
 
         <div class="right-section">
-            <img src="data:image/png;base64,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" class="icon">
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABJklEQVR4Ae2WpVaFQRSFcaeS4QVwIjTiLbgk7D1w9xeg4FQcOu6acHeXtNnDmsFd7in/WetLI+f7dbYDAFEsAUvgoeAQ5k5iSQFpIH1kkMyQFXJMTsgpwTuc6jlHes2M3qNP71mge7g76DLNg8gygZ1QckGmuSdZJ7Azq8RDCSQTCJGgBCoFBWqVQLegQJcSmPnWIr9oICMXcIr4C4FJJbD9rUX+NtzX+CIQlfVbgS0lcP4jAVNt/UCA7acCZ0oAPxfQdXMLFNUBvpHflvgbAVM7h0B6zrfeD3kB+Ucg/xLKf4biPyLJX3GH9GFUogRSBQUSTSBZEwskQpFs1USyl6E0gRSRJtJPhsnci1B69oVQeqzXzOo9+kmj3juBeDw2BkSxBCyBO+9s03HRLVCoAAAAAElFTkSuQmCC" class="icon">
+            <img src="data:image/png;base64,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"
+                class="icon">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABJklEQVR4Ae2WpVaFQRSFcaeS4QVwIjTiLbgk7D1w9xeg4FQcOu6acHeXtNnDmsFd7in/WetLI+f7dbYDAFEsAUvgoeAQ5k5iSQFpIH1kkMyQFXJMTsgpwTuc6jlHes2M3qNP71mge7g76DLNg8gygZ1QckGmuSdZJ7Azq8RDCSQTCJGgBCoFBWqVQLegQJcSmPnWIr9oICMXcIr4C4FJJbD9rUX+NtzX+CIQlfVbgS0lcP4jAVNt/UCA7acCZ0oAPxfQdXMLFNUBvpHflvgbAVM7h0B6zrfeD3kB+Ucg/xLKf4biPyLJX3GH9GFUogRSBQUSTSBZEwskQpFs1USyl6E0gRSRJtJPhsnci1B69oVQeqzXzOo9+kmj3juBeDw2BkSxBCyBO+9s03HRLVCoAAAAAElFTkSuQmCC"
+                class="icon">
+        </div>
+    </div>
+
+
+
+    <div class="side-section">
+        <div>
+            <img src="https://raw.githubusercontent.com/Openlab-2-2023/simsky-repo/7a186972495985d189ebc43518c8f37a0db6e881/icons/hamburger-menu.svg"
+                alt="Icon" class="okej-icon">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="Icon"
+                class="home-icon">
+                <span>Home</span>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRiqMU1trLaUV7v195jRrf7nLek1dqvRVusg&s"
+                alt="Icon" class="short-icon">
+                <span>Short</span>
+            <img src="https://cdn.icon-icons.com/icons2/1369/PNG/512/-subscriptions_90714.png" alt="Icon"
+                class="subcriptions-icon">
+                <span>Subcriptions</span>
+            <img src="https://www.shutterstock.com/image-vector/mine-shaft-line-icon-vector-260nw-2382458431.jpg"
+                alt="Icon" class="mine-icon">
+                <span>Mine</span>
+            <img src="https://cdn1.iconfinder.com/data/icons/material-core/21/history-512.png" alt="Icon"
+                class="history-icon">
+                <span>History</span>
         </div>
     </div>
 
     <div class="content-wrapper">
         <div class="video-grid">
-            
+
             <div class="video-box">
                 <div class="thumbnail-wrapper">
-                    <img src="https://i.ytimg.com/vi/SuEkOAayWZo/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IEkoJzAP&rs=AOn4CLBFhlcwC6ioHpzObLJ1TELRm7itbw">
+                    <img
+                        src="https://i.ytimg.com/vi/SuEkOAayWZo/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARh_IEkoJzAP&rs=AOn4CLBFhlcwC6ioHpzObLJ1TELRm7itbw">
                 </div>
-                <div class="video-title">🗿 𝙎𝙄𝙂𝙈𝘼 𝙎𝙤𝙣𝙜𝙨 𝙈𝙞𝙭🍷 𝕌𝕝𝕥𝕚𝕞𝕒𝕥𝕖 𝕊𝕚𝕘𝕞𝕒 ℙ𝕝𝕒𝕪𝕝𝕚𝕤𝕥</div>
+                <div class="video-title">🗿 𝙎𝙄𝙂𝙈𝘼 𝙎𝙤𝙣𝙜𝙨 𝙈𝙞𝙭🍷 𝕌𝕝𝕥𝕚𝕞𝕒𝕥𝕖 𝕊𝕚𝕘𝕞𝕒 ℙ𝕝𝕒𝕪𝕝𝕚𝕤𝕥
+                </div>
                 <div class="info-author">
                     <div class="channel-icon">
-                        <img src="https://yt3.ggpht.com/E5-pcNXzfJdVQFCacOcNNfcwiyEbL1h-SkhdmBvJuoUw1jb5mnJlQ-2hChxRibSARw4ui5db=s68-c-k-c0x00ffffff-no-rj">
+                        <img
+                            src="https://yt3.ggpht.com/E5-pcNXzfJdVQFCacOcNNfcwiyEbL1h-SkhdmBvJuoUw1jb5mnJlQ-2hChxRibSARw4ui5db=s68-c-k-c0x00ffffff-no-rj">
                     </div>
                     <div class="video-info">Successful Aspects<br>8.1 million viewed 1 year ago</div>
                 </div>
             </div>
 
-            
+
             <div class="video-box">
                 <div class="thumbnail-wrapper">
-                    <img src="https://i.ytimg.com/vi/MUrbiTIWhK0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRiCJSTssP1qMCq0apLMA3w_GmqQ">
+                    <img
+                        src="https://i.ytimg.com/vi/MUrbiTIWhK0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDRiCJSTssP1qMCq0apLMA3w_GmqQ">
                 </div>
                 <div class="video-title">Sigma Male Playlist (Motivational, Workout Music)</div>
                 <div class="info-author">
                     <div class="channel-icon">
-                        <img src="https://yt3.ggpht.com/JuiX17Ko3jOZlhCKgN0mX6GLXfDhIJLpj3O4govsJhDp7uypTylETCOIbeuEW10L2z4CoWmk=s88-c-k-c0x00ffffff-no-rj">
+                        <img
+                            src="https://yt3.ggpht.com/JuiX17Ko3jOZlhCKgN0mX6GLXfDhIJLpj3O4govsJhDp7uypTylETCOIbeuEW10L2z4CoWmk=s88-c-k-c0x00ffffff-no-rj">
                     </div>
                     <div class="video-info">𝐀𝐊𝐔𝐌𝐀<br>6 million viewed 1 year ago</div>
                 </div>
             </div>
 
-            
+
             <div class="video-box">
                 <div class="thumbnail-wrapper">
-                    <img src="https://i.ytimg.com/vi/nEPhaprM8Sg/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhHIFgocjAP&rs=AOn4CLAO9Nf9slomADkX-xp30BNxdS2WTA">
+                    <img
+                        src="https://i.ytimg.com/vi/nEPhaprM8Sg/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhHIFgocjAP&rs=AOn4CLAO9Nf9slomADkX-xp30BNxdS2WTA">
                 </div>
                 <div class="video-title">SIGMA PHONK MIX #1 Playlist</div>
                 <div class="info-author">
                     <div class="channel-icon">
-                        <img src="https://yt3.ggpht.com/-Td837w3zLc-VV2Qvs_LI2oHhydKnUovAvRDrLvhb1II_dakrBAb9a_kDCnmn8XnwNqzmwKCzxA=s88-c-k-c0x00ffffff-no-rj">
+                        <img
+                            src="https://yt3.ggpht.com/-Td837w3zLc-VV2Qvs_LI2oHhydKnUovAvRDrLvhb1II_dakrBAb9a_kDCnmn8XnwNqzmwKCzxA=s88-c-k-c0x00ffffff-no-rj">
                     </div>
                     <div class="video-info">benzo junior<br>1.9 million viewed 1 year ago</div>
                 </div>
             </div>
 
-            
+
             <div class="video-box">
                 <div class="thumbnail-wrapper">
-                    <img src="https://i.ytimg.com/vi/nkGONChkBAA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDTMi-DHV4dbwbamwOHTrIJ-GTl2w">
+                    <img
+                        src="https://i.ytimg.com/vi/nkGONChkBAA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDTMi-DHV4dbwbamwOHTrIJ-GTl2w">
                 </div>
-                <div class="video-title">Gangster Paradise - Coolio | Slowed & Reverb |@aviklo-firemix| Peaky Blindera |Trending Attitude</div>
+                <div class="video-title">Gangster Paradise - Coolio | Slowed & Reverb |@aviklo-firemix| Peaky Blindera
+                    |Trending Attitude</div>
                 <div class="info-author">
                     <div class="channel-icon">
-                        <img src="https://yt3.ggpht.com/aDj6StC4hKy1_Wr2-B-ZzwQcGsNqkjyn583SmyrIyww-6hpvo6USiIgVVJ4y4GWllEc81NBdQA=s88-c-k-c0x00ffffff-no-rj">
+                        <img
+                            src="https://yt3.ggpht.com/aDj6StC4hKy1_Wr2-B-ZzwQcGsNqkjyn583SmyrIyww-6hpvo6USiIgVVJ4y4GWllEc81NBdQA=s88-c-k-c0x00ffffff-no-rj">
                     </div>
                     <div class="video-info">AVIK LO-FI REMIX <br>15 million viewed 1 year ago</div>
                 </div>
             </div>
 
-            
+
             <div class="video-box">
                 <div class="thumbnail-wrapper">
-                    <img src="https://i.ytimg.com/vi/wPK3xtUu9ro/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDOu55p9739K50fPKmzMKX4LsrlJg">
+                    <img
+                        src="https://i.ytimg.com/vi/wPK3xtUu9ro/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDOu55p9739K50fPKmzMKX4LsrlJg">
                 </div>
                 <div class="video-title">The perfect Girl-slowed+reverb for 1 hour￼</div>
                 <div class="info-author">
                     <div class="channel-icon">
-                        <img src="https://yt3.ggpht.com/WAack5W1pJwGM8MJmK_KSw9nObI09-6t7chqGVI6cncYvAYz_g3-3-lAcW2VKkIQ3J1tmCW8=s68-c-k-c0x00ffffff-no-rj">
+                        <img
+                            src="https://yt3.ggpht.com/WAack5W1pJwGM8MJmK_KSw9nObI09-6t7chqGVI6cncYvAYz_g3-3-lAcW2VKkIQ3J1tmCW8=s68-c-k-c0x00ffffff-no-rj">
                     </div>
                     <div class="video-info">Caysenedits<br>1 million viewed 2 years ago </div>
                 </div>
             </div>
 
-            
+
             <div class="video-box">
                 <div class="thumbnail-wrapper">
-                    <img src="https://i.ytimg.com/vi/KxQhx_tcCf8/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAwJd-Enx8uU_NMiBBoiY221goSyQ">
+                    <img
+                        src="https://i.ytimg.com/vi/KxQhx_tcCf8/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAwJd-Enx8uU_NMiBBoiY221goSyQ">
                 </div>
                 <div class="video-title">The Batman | Methamorphosis #dc #batman #thebatman #robertpattinson</div>
                 <div class="info-author">
                     <div class="channel-icon">
-                        <img src="https://yt3.ggpht.com/fGjos5CmEM5SQf6FGxe57rqxGvtpshvfw8hrfRwUnEAzpXKVOhTrc9zDGA0h416QHMaFBQ_j=s88-c-k-c0x00ffffff-no-rj">
+                        <img
+                            src="https://yt3.ggpht.com/fGjos5CmEM5SQf6FGxe57rqxGvtpshvfw8hrfRwUnEAzpXKVOhTrc9zDGA0h416QHMaFBQ_j=s88-c-k-c0x00ffffff-no-rj">
                     </div>
                     <div class="video-info">BEQ4<br>1.3 million viewed 1 year ago</div>
                 </div>
@@ -114,4 +157,5 @@
         </div>
     </div>
 </body>
+
 </html>
