@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoznamy</title>
+    <style>
+        body {
+            font-size: 20px; /* Nastavenie veľkosti písma na 20px */
+        }
+        .blue-box, .green-box, .red-box {
+            border: 2px solid black;
+            padding: 15px;
+            margin-bottom: 20px;
+            width: fit-content;
+        }
+        .blue-box {
+            background-color: #ADD8E6; 
+        }
+        .green-box {
+            background-color: #98FB98; 
+        }
+        .red-box {
+            background-color: #F08080; 
+        }
+        ul, ol {
+            margin: 0;
+            padding-left: 20px; 
+        }
+        dt {
+            font-weight: bold; 
+        }
+    </style>
+</head>
+<body>
+
+    
+    <h1>Zoznamy</h1>
+
+   
+    <div class="blue-box">
+        <h2>Vytvorenie nezoradeného zoznamu:</h2>
+        <ul>
+            <li>Vytvorte nový HTML dokument s názvom napr. <i>lists.html</i> a inicializujte ho.</li>
+            <li>Nastavte veľkosť písma na 20px.</li>
+            <li>Vytvorte header "Zoznamy".</li>
+            <li>Vytvorte paragrafy s obsahom zhodným s príkladom.</li>
+            <li>Vytvorte header pre nezoradený zoznam.</li>
+            <li>Vytvorte zoznam pomocou tagu <code>&lt;ul&gt;</code>.</li>
+            <li>Vložte obsah zhodný s príkladom pomocou tagu <code>&lt;li&gt;</code>.</li>
+        </ul>
+    </div>
+
+   
+    <div class="green-box">
+        <h2>Vytvorenie zoradeného zoznamu:</h2>
+        <ol>
+            <li>Vytvorte header pre zoradený zoznam.</li>
+            <li>Vytvorte zoznam pomocou tagu <code>&lt;ol&gt;</code>.</li>
+            <li>Vložte obsah zhodný s príkladom pomocou tagu <code>&lt;li&gt;</code>.</li>
+        </ol>
+    </div>
+
+   
+    <div class="red-box">
+        <h2>Vytvorenie zoznamu s pojmami a ich definíciami:</h2>
+        <dl>
+            <dt>Nezoradený zoznam</dt>
+            <dd>Používa sa na zoznamy, kde poradie jednotlivých položiek nie je dôležité.</dd>
+
+            <dt>Zoradený zoznam</dt>
+            <dd>Používa sa na zoznamy, kde je dôležité poradie jednotlivých položiek.</dd>
+
+            <dt>Zoznam s pojmami a ich definíciami</dt>
+            <dd>Používa sa na párovanie položiek s ich definíciami alebo vysvetleniami.</dd>
+            <dd>Na vytvorenie zoznamu použijete tag <code>&lt;dl&gt;</code>.</dd>
+            <dd>Na vytvorenie pojmu použijete tag <code>&lt;dt&gt;</code> a nastavíte štýl písma <strong>bold</strong>.</dd>
+            <dd>Na vytvorenie definície použijete tag <code>&lt;dd&gt;</code>.</dd>
+        </dl>
+    </div>
+
+</body>
+</html>
