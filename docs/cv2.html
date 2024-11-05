@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="cv2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h2>Registrácia</h2>
+        </div>
+        <div class="content">
+          
+            <form class="form-registration">
+                
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Meno</span>
+                        <input type="text" placeholder="Meno" id="name">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Prezývka</span>
+                        <input type="text" placeholder="Prezývka" id="nickname">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="email" placeholder="Email" id="email">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Tel. Číslo</span>
+                        <input type="text" placeholder="Tel. Číslo" id="phone">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Heslo</span>
+                        <input type="password" placeholder="Heslo" id="password">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Potvrď heslo</span>
+                        <input type="password" placeholder="Potvrď heslo" id="confirmPassword">
+                    </div>
+                </div>
+
+                
+                <div class="gender-details">
+                    <span class="gender-title">Pohlavie</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <input type="radio" name="gender" id="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Muž</span>
+                        </label>
+                        <label for="dot-2">
+                            <input type="radio" name="gender" id="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Žena</span>
+                        </label>
+                        <label for="dot-3">
+                            <input type="radio" name="gender" id="dot-3">
+                            <span class="dot three"></span>
+                            <span class="gender">Iné</span>
+                        </label>
+                    </div>
+                </div>
+
+                
+                <div class="button">
+                    <input type="reset" value="Registrovať">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
