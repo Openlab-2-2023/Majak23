@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth; /* Hladký prechod pri skrolovaní */
+}
+
+nav {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    height: 100vh; 
+}
+
+#section1 {
+    background-color: #f9f9f9;
+}
+
+#section2 {
+    background-color: #e9f7ef;
+}
+
+#section3 {
+    background-color: #e3f2fd;
+}
