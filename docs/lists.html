@@ -4,40 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zoznamy</title>
-    <style>
-        body {
-            font-size: 20px; /* Nastavenie veľkosti písma na 20px */
-        }
-        .blue-box, .green-box, .red-box {
-            border: 2px solid black;
-            padding: 15px;
-            margin-bottom: 20px;
-            width: fit-content;
-        }
-        .blue-box {
-            background-color: #ADD8E6; 
-        }
-        .green-box {
-            background-color: #98FB98; 
-        }
-        .red-box {
-            background-color: #F08080; 
-        }
-        ul, ol {
-            margin: 0;
-            padding-left: 20px; 
-        }
-        dt {
-            font-weight: bold; 
-        }
-    </style>
+    <link rel="stylesheet" href="list.css">
+    
+  
 </head>
 <body>
 
-    
     <h1>Zoznamy</h1>
 
-   
     <div class="blue-box">
         <h2>Vytvorenie nezoradeného zoznamu:</h2>
         <ul>
@@ -51,7 +25,6 @@
         </ul>
     </div>
 
-   
     <div class="green-box">
         <h2>Vytvorenie zoradeného zoznamu:</h2>
         <ol>
@@ -61,7 +34,6 @@
         </ol>
     </div>
 
-   
     <div class="red-box">
         <h2>Vytvorenie zoznamu s pojmami a ich definíciami:</h2>
         <dl>
@@ -78,6 +50,31 @@
             <dd>Na vytvorenie definície použijete tag <code>&lt;dd&gt;</code>.</dd>
         </dl>
     </div>
+
+    <div class="scroll-container"></div>
+
+    <a href="javascript:void(0)" id="backToTopBtn">Back to Top</a>
+
+    <script>
+        
+
+window.onscroll = function() {
+    var backToTopBtn = document.getElementById('backToTopBtn');
+    if (window.scrollY > 100) {
+        backToTopBtn.style.display = "block";
+    } else {
+        backToTopBtn.style.display = "none";
+    }
+};
+
+document.getElementById('backToTopBtn').onclick = function() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth" 
+    });
+};
+
+    </script>
 
 </body>
 </html>

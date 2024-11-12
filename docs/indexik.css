@@ -1,0 +1,30 @@
+.iframe-container {
+    margin: 20px 0;
+}
+
+iframe {
+    border: 2px solid #000;
+    background-color: #f0f0f0;
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin-bottom: 20px;
+    display: none;
+}
+
+
+#wiki:checked ~ .iframe-container #iframe-wiki,
+#youtube:checked ~ .iframe-container #iframe-youtube {
+    display: block;
+}
+
+label {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007BFF;
+    cursor: pointer;
+}
+
+label:hover {
+    text-decoration: underline;
+}
