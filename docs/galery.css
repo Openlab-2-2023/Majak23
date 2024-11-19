@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 1em;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 150px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    width: 140px;
+}
+
+.dropdown-content a:hover {
+    background-color: #575757;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+
+#services ul {
+    list-style: none;
+    padding: 0;
+}
+
+#services li {
+    padding: 10px;
+}
+
+#gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
+    padding: 20px;
+}
+
+#gallery h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%; 
+}
+
+.gallery-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-item img {
+    width: 200px;
+    height: 200px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.gallery-item img:hover {
+    opacity: 1;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+    background-color: #ffffff;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-item i {
+    font-size: 30px;
+    color: black;
+    transition: color 0.3s;
+}
+
+.social-item i:hover {
+    color: red;
+}
+
+.social-item span {
+    font-size: 18px;
+    color: black;
+}
