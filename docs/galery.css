@@ -59,6 +59,14 @@ body {
     padding: 10px;
 }
 
+#services li:first-child {
+    background-color: lightblue;
+}
+
+#services li:nth-child(2) {
+    background-color: lightgray;
+}
+
 #gallery {
     display: flex;
     justify-content: center;
